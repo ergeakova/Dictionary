@@ -50,8 +50,6 @@
             this.TabOgrendiklerim = new DevExpress.XtraBars.Navigation.TabNavigationPage();
             this.tabista = new DevExpress.XtraBars.Navigation.TabPane();
             this.tabNavigationPage3 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.LblDogruYanlisOran = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.LblOgrenilenKelimeSayisi = new System.Windows.Forms.Label();
@@ -167,8 +165,6 @@
             // tabNavigationPage3
             // 
             this.tabNavigationPage3.Caption = "Genel";
-            this.tabNavigationPage3.Controls.Add(this.label13);
-            this.tabNavigationPage3.Controls.Add(this.label14);
             this.tabNavigationPage3.Controls.Add(this.LblDogruYanlisOran);
             this.tabNavigationPage3.Controls.Add(this.label12);
             this.tabNavigationPage3.Controls.Add(this.LblOgrenilenKelimeSayisi);
@@ -177,43 +173,17 @@
             this.tabNavigationPage3.Name = "tabNavigationPage3";
             this.tabNavigationPage3.Size = new System.Drawing.Size(938, 221);
             // 
-            // label13
-            // 
-            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.Location = new System.Drawing.Point(700, 93);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(179, 38);
-            this.label13.TabIndex = 15;
-            this.label13.Text = "Doğru cevap Oranı";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label14
-            // 
-            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label14.Location = new System.Drawing.Point(503, 93);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(179, 38);
-            this.label14.TabIndex = 14;
-            this.label14.Text = "????";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // LblDogruYanlisOran
             // 
             this.LblDogruYanlisOran.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.LblDogruYanlisOran.BackColor = System.Drawing.Color.Transparent;
             this.LblDogruYanlisOran.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.LblDogruYanlisOran.Location = new System.Drawing.Point(700, 55);
+            this.LblDogruYanlisOran.Location = new System.Drawing.Point(870, 107);
             this.LblDogruYanlisOran.Name = "LblDogruYanlisOran";
-            this.LblDogruYanlisOran.Size = new System.Drawing.Size(179, 38);
+            this.LblDogruYanlisOran.Size = new System.Drawing.Size(64, 38);
             this.LblDogruYanlisOran.TabIndex = 13;
-            this.LblDogruYanlisOran.Text = "Doğru cevap Oranı";
+            this.LblDogruYanlisOran.Text = "0000";
             this.LblDogruYanlisOran.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label12
@@ -222,7 +192,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.Location = new System.Drawing.Point(503, 55);
+            this.label12.Location = new System.Drawing.Point(695, 107);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(179, 38);
             this.label12.TabIndex = 12;
@@ -235,12 +205,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.LblOgrenilenKelimeSayisi.BackColor = System.Drawing.Color.Transparent;
             this.LblOgrenilenKelimeSayisi.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.LblOgrenilenKelimeSayisi.Location = new System.Drawing.Point(700, 17);
+            this.LblOgrenilenKelimeSayisi.Location = new System.Drawing.Point(869, 69);
             this.LblOgrenilenKelimeSayisi.Name = "LblOgrenilenKelimeSayisi";
-            this.LblOgrenilenKelimeSayisi.Size = new System.Drawing.Size(179, 38);
+            this.LblOgrenilenKelimeSayisi.Size = new System.Drawing.Size(66, 38);
             this.LblOgrenilenKelimeSayisi.TabIndex = 11;
-            this.LblOgrenilenKelimeSayisi.Text = "Doğru cevap Oranı";
-            this.LblOgrenilenKelimeSayisi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LblOgrenilenKelimeSayisi.Text = "0000";
+            this.LblOgrenilenKelimeSayisi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label9
             // 
@@ -248,9 +218,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(437, 17);
+            this.label9.Location = new System.Drawing.Point(650, 69);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(245, 38);
+            this.label9.Size = new System.Drawing.Size(224, 38);
             this.label9.TabIndex = 10;
             this.label9.Text = "Öğrenilen Kelime Sayısı :";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -275,6 +245,7 @@
             xyDiagram1.Margins.Left = 3;
             xyDiagram1.Margins.Right = 3;
             xyDiagram1.Margins.Top = 3;
+            xyDiagram1.Rotated = true;
             this.chartControl2.Diagram = xyDiagram1;
             this.chartControl2.Legend.AlignmentHorizontal = DevExpress.XtraCharts.LegendAlignmentHorizontal.LeftOutside;
             this.chartControl2.Legend.BackColor = System.Drawing.Color.Transparent;
@@ -317,7 +288,7 @@
         series3,
         series4,
         series5};
-            this.chartControl2.Size = new System.Drawing.Size(435, 219);
+            this.chartControl2.Size = new System.Drawing.Size(648, 219);
             this.chartControl2.TabIndex = 1;
             // 
             // tabNavigationPage1
@@ -674,7 +645,9 @@
             this.CmbTuru.Items.AddRange(new object[] {
             "İsim",
             "Sıfat",
-            "Fiil"});
+            "Fiil",
+            "Zarf",
+            "Edat"});
             this.CmbTuru.Location = new System.Drawing.Point(160, 162);
             this.CmbTuru.Name = "CmbTuru";
             this.CmbTuru.Size = new System.Drawing.Size(132, 32);
@@ -1048,8 +1021,6 @@
         private DevExpress.XtraCharts.ChartControl ChartAylik;
         private System.Windows.Forms.Label LblAylikisSay;
         private System.Windows.Forms.Label LblAylikis;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label LblDogruYanlisOran;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label LblOgrenilenKelimeSayisi;

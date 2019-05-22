@@ -224,10 +224,6 @@ namespace Dictionary
             MessageBox.Show(KelimeEkle.kelime[1] + " Kelimesi Başarılı Bir Şekilde Sözlüğünüze Eklendi.");
         }//Sözlüğe Kelime Ekleyen Buton
 
-
-
-
-
         private void Btn_Basla_Click(object sender, EventArgs e)
         {
             if (GbClass.SoruSay() != 0)
